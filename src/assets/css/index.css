@@ -1,0 +1,40 @@
+:root {
+  --accent-color: #fec138;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+p {
+  color: #45556c;
+}
+.cursive-text {
+  font-family: "Sacramento", cursive;
+  font-style: italic;
+}
+.accent-text {
+  color: var(--accent-color);
+}
+.accent-bg {
+  background-color: var(--accent-color);
+  color: #024664;
+}
+.accent-bg:hover {
+  background-color: #daa731;
+}
+.accent-text:hover {
+  color: #b18727;
+}
+.bg-000000c4 {
+  background-color: #000000c4;
+}
+.default-box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 5px 6px, rgba(0, 0, 0, 0.01) 0px 4px 6px;
+}
+.z-999{
+  z-index: 999;
+}

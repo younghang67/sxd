@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favico.ico" />
+    <script src="assets/js/index.js" defer></script>
+    <script src="https://www.youtube.com/iframe_api" defer></script>
+    <title>St. Xavier's School Deonia</title>
+  </head>
+  <body class="relative">
+    <!-- top header  -->
+    <div class="py-2 px-4 bg-[#F5F5F5] sm:block hidden">
+      <div class="max-w-7xl mx-auto flex justify-between items-center text-sm pt-2">
+        <div class="flex gap-6">
+          <span class="flex items-center gap-2"> 📞 9826925722, 9749243166</span>
+          <span class="font-extrabold">|</span>
+          <span class="flex items-center gap-2"> ✉️ stxavierdeonia@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar -->
+    <header class="px-4 py-2 bg-white sticky top-0 z-40 default-box-shadow">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center gap-2">
+          <div>
+            <img class="w-20 object-contain" src="/src/assets/imgs/SXD-padding-small.png" alt="" />
+          </div>
+        </div>
+        <div id="menu-btn" class="md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div>
+        <nav class="hidden md:flex gap-8">
+          <a href="#" class="hover:text-blue-500 transition inline-block"> Home </a>
+          <a href="#" class="hover:text-blue-500 transition inline-block"> About Us </a>
+          <a href="#" class="hover:text-blue-500 transition inline-block"> Facilites </a>
+          <a href="#" class="hover:text-blue-500 transition inline-block"> Our Team </a>
+          <a href="#" class="hover:text-blue-500 transition inline-block"> News </a>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      id="mobile-nav"
+      class="fixed top-0 right-0 h-screen w-1/2 py-8 bg-[#0667A4] text-white shadow-lg transform translate-x-full transition-transform duration-300 md:hidden z-50"
+    >
+      <div class="text-right pr-6">
+        <button id="close-btn" class="">✕</button>
+      </div>
+      <nav class="flex flex-col p-6 space-y-6 text-lg">
+        <a href="#" class="hover:text-blue-500 transition">Home</a>
+        <a href="#" class="hover:text-blue-500 transition">About Us</a>
+        <a href="#" class="hover:text-blue-500 transition">Facilities</a>
+        <a href="#" class="hover:text-blue-500 transition">Our Team</a>
+        <a href="#" class="hover:text-blue-500 transition">News</a>
+      </nav>
+    </div>
+    <main>
+      <!-- hero section -->
+      <section
+        class="relative h-[85vh] min-h-[600px] bg-cover bg-center flex items-center justify-start"
+        style="background-image: url('/src/assets/imgs/farewell.png')"
+      >
+        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="relative max-w-7xl mx-auto px-4 w-full">
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-8">Explore Your Potential & Talents at St. Xaviers</h1>
+            <div class="flex gap-4 flex-wrap">
+              <a href="#" class="accent-bg px-8 py-4 font-semibold transition flex items-center gap-3">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke -linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- word from Principal -->
+      <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="flex md:flex-row flex-col justify-between items-center gap-12">
+            <div class="basis-2/4">
+              <h2 class="text-4xl md:text-5xl font-semibold md:leading-14 leading-10 text-zinc-900 mb-8">Message from the Principal</h2>
+              <div class="w-16 h-1 bg-amber-700 mb-8 md:block hidden"></div>
+              <div class="md:basis-2/4 md:hidden dm:justify-center sm:justify-start justify-center flex my-10">
+                <img
+                  class="md:object-cover sm:object-contain object-cover rounded-[30px] md:h-[375px] md:w-full sm:w-[380px] w-full"
+                  src="/src/assets/imgs/Fr.-Sanjay-B.-Ekka-S.J-Principal.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="space-y-6 text-gray-600 leading-relaxed">
+                <p>
+                  Our theme for the academic year is “Caring for Our Common Home,” inspired by one of the Universal Apostolic Preferences of the
+                  Society of Jesus. In the light of the growing environmental crisis, this theme calls our attention to the urgent need to protect and
+                  preserve Mother Earth, our Common Home. As stewards of creation, each of us is responsible for caring for the environment. This is
+                  not just a global concern; it is a personal commitment. Let us come together in action guided by conscience, to protect and nurture
+                  our common home for current and future generations…
+                </p>
+                <a class="accent-text transition-colors inline-block mb-2" href="#">
+                  <span class="flex gap-2 items-center">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </span>
+                </a>
+                <div class="md:text-right mt-6">
+                  <p class="cursive-text font-semibold md:text-4xl text-3xl">Fr. Dr. Augustine Thomas, S.J.</p>
+                  <p class="italic md:text-xl text-lg">Principal</p>
+                </div>
+              </div>
+            </div>
+            <div class="basis-2/4 md:flex justify-center hidden">
+              <img class="object-cover rounded-[30px] h-[375px]" src="/src/assets/imgs/Fr.-Sanjay-B.-Ekka-S.J-Principal.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Motto Section -->
+      <section class="pt-10 md:pb-12 pb-8 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">Our Motto</h2>
+          <p class="text-xl text-blue-600 font-semibold mb-6 italic">"Live for God and Lead for Nepal"</p>
+          <p class="leading-relaxed text-pretty">
+            Encourage a spiritual connection with God and live a life pleasing to the Almighty. Emphasize responsibility and exemplary citizenship for
+            the nation's welfare and growth.
+          </p>
+        </div>
+        <div class="pt-16 px-4">
+          <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="group relative">
+              <div
+                class="absolute inset-0 bg-linear-to-b from-emerald-100 to-emerald-50 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
+
+              <div class="relative h-full bg-white rounded-2xl p-8 border border-emerald-100 shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div
+                  class="w-16 h-16 rounded-full bg-linear-to-br from-emerald-100 to-emerald-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                >
+                  <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.364-7.364l-1.414 1.414M7.05 16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05 5.636 5.636M16 12l-4 2-2 4 4-2 2-4z"
+                    />
+                  </svg>
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Our <span class="text-emerald-600">Vision</span></h3>
+
+                <p class="leading-relaxed">
+                  To nurture holistic individuals who excel intellectually, spiritually, and socially, contributing positively to society and the
+                  world.
+                </p>
+              </div>
+            </div>
+
+            <div class="group relative h-full">
+              <div
+                class="absolute inset-0 bg-linear-to-b from-blue-100 to-blue-50 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
+
+              <div class="relative h-full bg-white rounded-2xl p-8 border border-blue-100 shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div
+                  class="w-16 h-16 rounded-full bg-linear-to-br from-blue-100 to-blue-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                >
+                  <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <circle cx="12" cy="12" r="6" />
+                    <circle cx="12" cy="12" r="2" />
+                  </svg>
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Our <span class="text-blue-600">Mission</span></h3>
+
+                <p class="leading-relaxed">
+                  To cultivate compassionate, innovative leaders who excel in service, uphold justice, and transform the world.
+                </p>
+              </div>
+            </div>
+
+            <div class="group relative h-full">
+              <div
+                class="absolute inset-0 bg-linear-to-b from-rose-100 to-rose-50 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
+
+              <div class="relative h-full bg-white rounded-2xl p-8 border border-rose-100 shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div
+                  class="w-16 h-16 rounded-full bg-linear-to-br from-rose-100 to-rose-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                >
+                  <svg class="w-8 h-8 text-rose-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M12 21s-6.716-4.288-9.364-7.636C.99 11.01 1.014 7.507 3.122 5.4c2.107-2.107 5.497-2.084 7.604.023L12 6.697l1.274-1.274c2.107-2.107 5.497-2.13 7.604-.023 2.108 2.107 2.133 5.61.486 7.964C18.716 16.712 12 21 12 21z"
+                    />
+                  </svg>
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Our <span class="text-rose-600">Objective</span></h3>
+
+                <p class="leading-relaxed">
+                  To develop global citizens who embody academic excellence, moral integrity, spiritual wisdom, social responsibility, and emotional
+                  health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dedicated to Excellence, Leadership, Service -->
+      <section class="py-12 mx-auto max-w-7xl px-6">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6 text-balance">Dedicated to Excellence, Leadership, Service</h2>
+          <p class="leading-relaxed text-pretty">
+            At St. Xavier's school, we are committed to the holistic development of each student, emphasizing education as a lifelong journey. We are
+            dedicated to preparing students to be compassionate, innovative, and ethical global citizens.
+          </p>
+        </div>
+
+        <div class="max-w-6xl md:px-4 grid auto-rows-max gap-6 md:grid-cols-5 mx-auto mt-16">
+          <!-- Dedication -->
+          <div class="md:col-span-2 rounded-2xl bg-white p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 default-box-shadow">
+            <div class="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border-3 border-accent bg-accent/5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </div>
+
+            <h3 class="mb-3 text-xl font-bold text-foreground">Dedication</h3>
+            <p class="text-sm text-foreground/70 leading-relaxed">Spiritual vision, concern for others, simplicity, and social justice.</p>
+          </div>
+          <!-- Excellence -->
+          <div class="md:col-span-3 rounded-2xl bg-white p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 default-box-shadow">
+            <div class="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border-3 border-accent bg-accent/5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+                />
+              </svg>
+            </div>
+
+            <h3 class="mb-3 text-xl font-bold text-foreground">Excellence</h3>
+            <p class="text-sm text-foreground/70 leading-relaxed">Human excellence, intellectual formation, and critical thinking.</p>
+          </div>
+          <!-- Leadership -->
+          <div class="md:col-span-3 rounded-2xl bg-white p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 default-box-shadow">
+            <div class="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border-3 border-accent bg-accent/5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </div>
+
+            <h3 class="mb-3 text-xl font-bold text-foreground">Leadership</h3>
+            <p class="text-sm text-foreground/70 leading-relaxed">Communication skills, critical evaluation, social justice commitment.</p>
+          </div>
+          <!-- Service -->
+          <div class="md:col-span-2 rounded-2xl bg-white p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 default-box-shadow">
+            <div class="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border-3 border-accent bg-accent/5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"
+                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg>
+            </div>
+
+            <h3 class="mb-3 text-xl font-bold text-foreground">Service</h3>
+            <p class="text-sm text-foreground/70 leading-relaxed">Respect, love, and solidarity across diverse communities.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- explore school -->
+      <section class="py-20 px-4 bg-white">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">Explore Our School</h2>
+          <p class="leading-relaxed text-pretty">
+            Access state-of-the-art resources that support your academic and personal growth. Our facilities are equipped to meet all your educational
+            needs.
+          </p>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 relative">
+          <img class="rounded-2xl object-contain w-full max-w-[1100px] mx-auto" src="/src/assets/imgs/farewell.png" alt="" />
+          <button
+            type="button"
+            onclick="openModelVideo()"
+            class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] cursor-pointer bg-[#3c00ffc7] p-3 rounded-full hover:scale-125 transition-all duration-200"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="text-white size-10 translate-x-[6%]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- news  -->
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row gap-12 mb-16">
+          <div class="md:w-1/3">
+            <h2 class="text-4xl md:text-5xl font-semibold md:leading-14 leading-10 text-zinc-900 mb-8">Latest News</h2>
+            <div class="w-16 h-1 bg-amber-700 mb-8 md:block hidden"></div>
+            <p class="text-muted-foreground mb-8 text-pretty">What's happening in UniCamp. Explore Your Potential & Talents in UniCamp</p>
+            <a href="#" class="accent-bg px-8 py-4 font-semibold transition inline-flex items-center gap-3">
+              View all news
+              <span>→</span>
+            </a>
+          </div>
+
+          <div class="md:w-2/3">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="group bg-white rounded-lg overflow-hidden shadow-sm transition-all duration-300 cursor-pointer hover:shadow-md">
+                <div class="relative h-48 overflow-hidden bg-slate-200">
+                  <img
+                    src="assets/imgs/600x400.svg"
+                    alt="Most students pleased with digital learning"
+                    class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="px-2 py-4">
+                  <h3 class="text-lg font-semibold text-foreground mb-2 line-clamp-2 transition-colors">
+                    Most students pleased with their digital learning
+                  </h3>
+
+                  <div class="text-sm text-muted-foreground">
+                    <span>January 23, 2021</span>
+                  </div>
+                </div>
+              </div>
+              <div class="group bg-white rounded-lg overflow-hidden shadow-sm transition-all duration-300 cursor-pointer hover:shadow-md">
+                <div class="relative h-48 overflow-hidden bg-slate-200">
+                  <img
+                    src="assets/imgs/600x400.svg"
+                    alt="Most students pleased with digital learning"
+                    class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="px-2 py-4">
+                  <h3 class="text-lg font-semibold text-foreground mb-2 line-clamp-2 transition-colors">
+                    Most students pleased with their digital learning
+                  </h3>
+
+                  <div class="text-sm text-muted-foreground">
+                    <span>January 23, 2021</span>
+                  </div>
+                </div>
+              </div>
+              <div class="group bg-white rounded-lg overflow-hidden shadow-sm transition-all duration-300 cursor-pointer hover:shadow-md">
+                <div class="relative h-48 overflow-hidden bg-slate-200">
+                  <img
+                    src="assets/imgs/600x400.svg"
+                    alt="Most students pleased with digital learning"
+                    class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="px-2 py-4">
+                  <h3 class="text-lg font-semibold text-foreground mb-2 line-clamp-2 transition-colors">
+                    Most students pleased with their digital learning
+                  </h3>
+
+                  <div class="text-sm text-muted-foreground">
+                    <span>January 23, 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- model video  -->
+      <section id="model-container" class="hidden fixed inset-0 justify-center items-center bg-000000c4 z-50"></section>
+    </main>
+    <footer class="bg-[#0667A4] text-white">
+      <div class="container mx-auto md:py-20 py-10 grid md:grid-cols-4 grid-cols-1 px-4">
+        <div class="md:col-span-2 max-w-[500px]">
+          <img src="assets/imgs/SXD-padding-large.png" class="h-24 object-contain" />
+          <p class="mt-4 text-white">
+            ST. XAVIER'S School, Kathmandu, is an educational institution of higher learning established and managed by the Nepal Jesuit Society.
+          </p>
+        </div>
+
+        <div class="md:mt-0 mt-6">
+          <h3 class="text-xl font-semibold">Usefull links</h3>
+          <ul class="md:mt-4 mt-2 space-y-2">
+            <li>
+              <a href="#" class="hover:text-accent transition inline-block"> Home </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-accent transition inline-block"> About Us </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-accent transition inline-block"> Facilites </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-accent transition"> Our Team </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-accent transition inline-block"> News </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="md:mt-0 mt-6">
+          <h3 class="text-xl font-semibold">Contact Info</h3>
+          <ul class="md:mt-4 mt-2 space-y-2">
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                />
+              </svg>
+              Jhapa, Deonia Nepal
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+              example@gmail.com
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                /></svg
+              >01-1234567
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
